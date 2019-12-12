@@ -3,187 +3,141 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
-
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+    skillset: True
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Shashank Sharma
+    tagline: Games/Augmented Reality Developer
+    avatar: Shashank_Profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: artofshashank@gmail.com
+    phone: 91-9819293713
+    website: artofshashank.wix.com/portfolio
+    linkedin: artofshashank
+    github: The-Painkiller
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
-        level: Native
+     - idiom: C#
+       level: Proficient
 
-      - idiom: French
-        level: Professional
+     - idiom: C++
+       level: Intermediate
 
-      - idiom: Spanish
-        level: Professional
 
-    interests:
-      - item: Climbing
-        link:
+    skills:
+      title: Skills
+      toolset:
+        - name:  Unity3D, Unity UI, Unity Editor Scripting
+        - name:  Vuforia, Google ARCore, Wikitude AR SDK
+        - name:  Ad SDKs, Analytics SDKs
+        - name:  git, SVN
+        - name:  Unreal Engine 4, Maya, 3Ds Max, Photoshop
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+    qualifications:
+      - desc: Experience in mobile games and AR applications.
+      - desc: Proven experience of working on games with user base >1 million.
+      - desc: Experienced in performance optimization.
+      - desc: Experienced in source control software.
+      - desc: Self directed and good with problem solving and debugging.
+      - desc: Capable to take initiative.
+      - desc: Team player.
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      A Game Programmer and a CG Artist with over 10 years of overall experience in Games development, AR Applications and CG.
+
+      My key skills include prototyping and developing gameplay, developing UI/UX with design team, integrating Ads and IAPs, debugging the application to make it more robust as well as mentoring junior team mates and helping them in problem/bug solving. All this along with skills in Maya, 3Ds Max, Unreal Engine as well as basics of C++ and python. 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: PG Diploma in Information Technologies(management)
+      university: Symbiosis Distance Learning, Pune
+      time: 2009 - 2011
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Certification in Computer Graphics
+      university: Maya Academy of Advanced Cinematics, Mumbai
+      time: 2007 - 2008
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: BSc Computer Science
+      university: Mumbai University, Mumbai
+      time: 2003 - 2007
+      details: |
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
     - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+      time: 2018 - 2019
+      company: Whodat, Bangalore
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
+          - Develop corporate Augmented Reality applications using various AR SDKs.
+          - Checking technical feasibility of and prototyping AR SDKs before beginning work on an application.
+          - Prototyped and developed an AR application for Indoor Navigation in iOS using ARKit.
+          - Developed an internal AR applicatin for an automobile giant using Vuforia Model Targets.
+    - role: Senior Unity Developer
+      time: 2018 - 2018
+      company: Games2Win, Mumbai
+      details: |
+          - Promoted as a senior developer.
+          - In addition to my own responsibilities as a developer, I also help other teammates in debugging and problem solving for their projects.
+          - Creating editor tools to pace project pipeline.
+          - Creating documentations for new systems, tools and prototypes for knowledge sharing and guiding others.
+          - Mentoring new team members.
+    - role: Unity Developer
+      time: 2014 - 2018
+      company: Games2Win, Mumbai
+      details: |
+          - Develop, update and port various Android and iOS games using C# with Unity3D.
+          - Creating gameplay systems, UI flows, game services as well as integrating IAPs, and Ads.
+          - Writing dynamic data fetching systems with WebRequests and JSONs.
+          - Debugging and optimising existing games for performance during updates.
+          - Prototyping new tools and technologies.
+          - Single-handedly developed Fab Tattoo Design Studio, which has over 1 million downloads and reached #1 in US, India and around 50 other countries in RPG category on Google Play Store.
+          - Created gameplay for cricket games such as Master Blaster T20, Cricket Champs, Gully Cricket, that went to top 5 list in Sports category on Google Play Store.
+          - Successfully implemented a custom mechanism, Yoyo, to show in-game ads for other Games2Win games by fetching JSON data from server.
+          - Wrote a custom shader in Unity with CG that shows multiple textures on top of one another and includes masking for 2 coloring games.
+          - Successfully ported company’s first game to Tizen OS in coordination with Samsung Developers and set guidelines for others to achieve porting to the same.
+    - role: Game Engineer/Artist
       time: 2012 - 2014
-      company: Amazon, London
+      company: Wings Intellect, Mumbai
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Developed multiple edu-games in Unity3D as gameplay programmer.
+          - Environment/Props creation with Autodesk Maya. Worked on level editing, material creation, camera sequence creation and particle effects in Unreal Engine and Unity3D
+          - Responsible for production coordination between modelling, texturing and animation teams to keep track of assets during development.
+    - role: Graphics Artist
+      time: 2009 - 2012
+      company: Musica Animatics, Mumbai
+      details: |
+          - Responsible for creation of storyboard animatics using Adobe After Effects and rendering 3D backgrounds and props for the same with 3Ds Max. Projects included pre-production of ad commercials for brands such as Kellogg’s and Cadbury.
+
+
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Side Projects
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Sci-Fi Chambers Asset Pack.
+        link: https://www.unrealengine.com/marketplace/scifi-chambers-environment-set
+        tagline: "Released a sci-fi asset pack on Unreal Engine Marketplace, as well as on Unity Asset Store."
 
-      - title: DevStudio
+      - title: Terrain Starter Pack
+        link: "https://www.unrealengine.com/marketplace/terrain-starter-pack"
+        tagline: "Release a terrain starter pack with a procedural terrain material and fauna on Unreal Engine Marketplace."
+
+      - title: Masking Shader Pack
+        link: "https://assetstore.unity.com/packages/vfx/shaders/masking-shaders-pack-54936"
+        tagline: "Released a simple masking shader pack for Unity Asset store."
+
+      - title: JSON Creator
+        link: "https://assetstore.unity.com/packages/tools/utilities/jsoncreator-112354"
+        tagline: "A simple JSON creator as an editor tool within Unity."
+
+      - title: Brazil Renderer Tutorial
+        link: "http://www.3dm3.com/tutorials/brazil2_gi/"
+        tagline: "Published a tutorial on Global Illumination with Brazil Renderer in 3Ds Max."
+
+      - title: VRay Renderer Tutorial
+        link: "http://www.3dm3.com/tutorials/hdr_lighting/"
+        tagline: "Published a tutorial on exterior lighting with HDRI using VRay in 3Ds Max."
+
+      - title: Beta Tests
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+        tagline: "Beta tested Unreal Engine 4."

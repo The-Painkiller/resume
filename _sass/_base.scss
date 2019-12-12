@@ -48,7 +48,7 @@ p {
         color: #fff;
     }
     .profile-container {
-        padding: 30px;
+        padding: 25px;
         //background: darken($theme-color, 10%);
         background: rgba(0, 0, 0, 0.2);
         text-align: center;
@@ -93,7 +93,7 @@ p {
         }
     }
     .container-block {
-        padding: 30px;
+        padding: 25px;
     }
     .container-block-title {
         text-transform: uppercase;
@@ -150,6 +150,56 @@ p {
                 margin-bottom: 0;
             }
         }
+    }
+
+    .qualifications-container-block{
+      padding: 25px;
+
+      .qualifications-container-block-title{
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 15px;
+      }
+
+      .qualifications-list {
+          margin-bottom: 0;
+          li {
+              margin-bottom: 10px;
+              &:last-child {
+                  margin-bottom: 0;
+              }
+          }
+      }
+    }
+    .qualifications-container{
+      padding: 25px;
+    }
+
+    .skillset-container-block {
+        padding: 25px;
+
+        .skillset-container-block-title {
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+  }
+    .skillset-container{
+      padding: 25px;
+    }
+
+    .skill-item{
+      margin-bottom: 0;
+      li {
+          margin-bottom: 10px;
+          &:last-child {
+              margin-bottom: 0;
+          }
+      }
     }
 }
 
@@ -236,25 +286,25 @@ p {
 }
 
 
-.skillset {
-    .item {
-        margin-bottom: 15px;
-        overflow: hidden;
-    }
-    .level-title {
-        font-size: 14px;
-        margin-top: 0;
-        margin-bottom: 12px;
-    }
-    .level-bar {
-        height: 12px;
-        background: $smoky-white;
-    }
-    .level-bar-inner {
-        height: 12px;
-        background: lighten($theme-color, 15%);
-    }
-}
+// .skillset {
+//     .item {
+//         margin-bottom: 15px;
+//         overflow: hidden;
+//     }
+//     .level-title {
+//         font-size: 14px;
+//         margin-top: 0;
+//         margin-bottom: 12px;
+//     }
+//     .level-bar {
+//         height: 12px;
+//         background: $smoky-white;
+//     }
+//     .level-bar-inner {
+//         height: 12px;
+//         background: lighten($theme-color, 15%);
+//     }
+// }
 
 
 
