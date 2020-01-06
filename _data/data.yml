@@ -66,6 +66,13 @@ education:
       time: 2003 - 2007
       details: |
 experiences:
+    - role: Software Engineer - Tech
+      time: 2019 - ???
+      company: Byjus - The Learning App, Bangalore
+      details: |
+          - Software Engineering role in Osmo Worksheets team.
+          - Responsible for working on new features to Osmo Worksheets product of Byjus as well as debugging existing code in Unity based frontend.
+          - Prototyping ideas shared by content design team.
     - role: Senior Software Engineer
       time: 2018 - 2019
       company: Whodat, Bangalore
