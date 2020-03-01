@@ -66,8 +66,13 @@ education:
       time: 2003 - 2007
       details: |
 experiences:
+    - role: Unity Programmer
+      time: 2020 - ????
+      company: Ubisoft
+      details: |
+          - Programmer on a VR project being developed in Unity.
     - role: Software Engineer - Tech
-      time: 2019 - ???
+      time: 2019 - 2020
       company: Byjus - The Learning App, Bangalore
       details: |
           - Software Engineering role in Osmo Worksheets team.
